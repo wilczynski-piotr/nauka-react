@@ -10,13 +10,29 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  header: {
+    icon: 'frog',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
 
+
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const infoContents = {
+  title: 'INFOstrada',
+  image: 'https://cdn.pixabay.com/photo/2017/09/20/12/49/pin-board-2768419_960_720.jpg',
+  textsamlpe: 'Się uczymy i idzie to wolmo.',
+};
+
+export const faqContents= {
+  title: 'Frequently Asked Questions',
+  image: 'https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665_960_720.jpg',
+  textsamlpe: 'Jeśli masz pytania tu możesz znaleźć odpowiedź ;-)',
 };
 
 export const listData = {
