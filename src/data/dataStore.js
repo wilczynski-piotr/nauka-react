@@ -91,8 +91,20 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
-    description: 'Interesting things I want to check out!',
+    title: 'Things to do <sup>important!</sup>',
+    description: 'Urgent things!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>less important!</sup>',
+    description: 'Important but not urgent',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>not important</sup>',
+    description: 'Important but can wait',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
